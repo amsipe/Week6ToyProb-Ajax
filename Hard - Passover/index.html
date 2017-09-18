@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Week 6 Ajax - Hard</title>
+</head>
+<body>
+
+<div id="wrapper">
+  <form action="GET" id="astroForm">
+    <label for="lat">Latitude:</label>
+    <input type="text" name="lat" id="lat">
+    <label for="long">Longitude:</label>
+    <input type="text" name="long" id="long">
+    <input type="Submit" value="Submit" id="search">
+    <p>Or</p>
+
+  </form>
+  <button id="locBrowser">Use current location</button>
+  <div>
+    <ul id="passList">
+
+    </ul>
+
+  </div>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

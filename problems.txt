@@ -1,0 +1,12 @@
+API Documentation
+http://open-notify.org/
+
+EASY: Using jQuery's AJAX functions, create a page that will display the names of the people currently in space, as well as what spacecraft they are currently on.
+
+MEDIUM: Using a weather API, fetch and display weather for Charlotte to a webpage that you create. The webpage that you use can either be a simple page that just shows the data you receive from the API, or you can integrate it with your personal website. You should display at a minimum temperature and sky conditions. This API: http://weathers.co/api is free, simple, and doesn't require an account to be created. You can browse other weather APIs here if you would like to use something else: https://www.programmableweb.com/category/weather/api.
+
+MEDIUM (BONUS): Add an input field and button on your page that let's the user enter a city and update the weather to the city of their choosing. Handle errors if a user enters bad input.
+
+HARD: Create a page with a form to enter your longitude and latitude. When the form is submitted, use jQuery's AJAX functions to display a list of date/times that the International Space Station will pass over the given location.
+
+HARD(BONUS): Add a button to your HARD solution that will use the browsers geolocation to set the longitude and latitude automatically.
